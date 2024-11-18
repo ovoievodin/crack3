@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
         }
 
         int foundHash = linearSearch(hash, hashes, size);
-        if(foundHash)
+        if(foundHash >= 0)
         {
             printf("%s %s\n", hash, line);
             found++;
